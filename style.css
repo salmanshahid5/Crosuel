@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.cantainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.main-div {
+    /* width: 100%; */
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgTag {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#userName {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+#job {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+#discrption {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+   line-height: 1.5;
+}
+
+#pechy {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+
+#pechy:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
